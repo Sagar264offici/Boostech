@@ -1,56 +1,11 @@
 {
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
-    {
-      "source": "/services/website-design",
-      "destination": "/"
-    },
-    {
-      "source": "/services/website-design/",
-      "destination": "/"
-    },
-    {
-      "source": "/services/seo",
-      "destination": "/"
-    },
-    {
-      "source": "/services/seo/",
-      "destination": "/"
-    },
-    {
-      "source": "/services/digital-marketing",
-      "destination": "/"
-    },
-    {
-      "source": "/services/digital-marketing/",
-      "destination": "/"
-    },
-    {
-      "source": "/services/google-meta-ads",
-      "destination": "/"
-    },
-    {
-      "source": "/services/google-meta-ads/",
-      "destination": "/"
-    },
-    {
-      "source": "/services/social-media-marketing",
-      "destination": "/"
-    },
-    {
-      "source": "/services/social-media-marketing/",
-      "destination": "/"
-    },
-    {
-      "source": "/resources/:path*",
-      "destination": "/"
-    },
-    {
-      "source": "/contact",
-      "destination": "/"
-    },
-    {
-      "source": "/contact/",
-      "destination": "/"
-    }
+    { "source": "/services/:path*", "destination": "/" },
+    { "source": "/resources/:path*", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
+    { "source": "/contact/", "destination": "/" }
   ]
 }
