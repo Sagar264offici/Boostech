@@ -1,7 +1,43 @@
 {
   "rewrites": [
     {
-      "source": "/services/:path*",
+      "source": "/services/website-design",
+      "destination": "/"
+    },
+    {
+      "source": "/services/website-design/",
+      "destination": "/"
+    },
+    {
+      "source": "/services/seo",
+      "destination": "/"
+    },
+    {
+      "source": "/services/seo/",
+      "destination": "/"
+    },
+    {
+      "source": "/services/digital-marketing",
+      "destination": "/"
+    },
+    {
+      "source": "/services/digital-marketing/",
+      "destination": "/"
+    },
+    {
+      "source": "/services/google-meta-ads",
+      "destination": "/"
+    },
+    {
+      "source": "/services/google-meta-ads/",
+      "destination": "/"
+    },
+    {
+      "source": "/services/social-media-marketing",
+      "destination": "/"
+    },
+    {
+      "source": "/services/social-media-marketing/",
       "destination": "/"
     },
     {
